@@ -10,6 +10,7 @@ import Ofertas from './components/Pages/Ofertas'
 import OfertasCadastrar from './components/Pages/OfertasCadastrar'
 import OfertasDetalhes from './components/Pages/OfertasDetalhes'
 import Login from './components/Pages/Login'
+import Registro from './components/Pages/Registro'
 
 
 Vue.prototype.moment = moment
@@ -32,7 +33,7 @@ const router = new VueRouter({
     { path: '/offerin', component: OfertasCadastrar },
     { path: '/offerdetails/:id', component: OfertasDetalhes  },
     { path: '/login', component: Login },
-    
+    { path: '/register', component: Registro },
   ]
 })
 

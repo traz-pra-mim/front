@@ -10,8 +10,8 @@
           </h2>
           <p
             class="lead"
-          >Tá indo para sua terra natal? <span class="text-muted">Ajude conterrâneos a trazerem coisas que desejam da terra de vocês!</span></p>
-          <a @click="$router.push('/offerin')"  class="btn btn-primary">Cadastre a oferta</a>
+          >Tá indo para sua terra natal? <span class="text-muted">Ajude conterrâneos a adquirirem coisas que desejam da terra de vocês!</span></p>
+          <a href="#!" @click="$router.push('/offerin')"  class="btn btn-primary">Cadastre a oferta</a>
         </div>
         <div class="col-md-5">
           <svg
@@ -56,7 +56,7 @@
           <p
             class="lead"
           >Quer que alguém traga algo? <span class="text-muted">Veja as ofertas já cadastradas!</span></p>
-          <a @click="$router.push('/offer')" class="btn btn-primary">Busque ofertas</a>
+          <a href="#!"  @click="$router.push('/offer')" class="btn btn-primary">Busque ofertas</a>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
    <div>    
        <!-- Footer -->
-<footer class="page-footer font-small blue-grey lighten-5">
+<footer class="page-footer font-small blue-grey lighten-5 bg-light">
 
   <div style="background-color: #21d192;">
     <div class="container">
